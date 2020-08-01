@@ -25,6 +25,6 @@ public class SortingTest {
         int[] expected = {1, 2};
         int[] actual = {2, 1};
         Sorting.bubbleSort(actual);
-        Assertions.assertArrayEquals(expected, actual);
+        Assertions.assertArrayEquals(expected, actual); 
     }
 }
